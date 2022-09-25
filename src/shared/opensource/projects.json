@@ -89,20 +89,6 @@
       ]
     },
     {
-      "id": "MDEwOlJlcG9zaXRvcnkxNTEyNjg5NTM=",
-      "name": "python-fire",
-      "createdAt": "2018-10-02T14:31:52Z",
-      "url": "https://github.com/meshde/python-fire",
-      "description": "Python Fire is a library for automatically generating command line interfaces (CLIs) from absolutely any Python object.",
-      "isFork": true,
-      "languages": [
-        {
-          "name": "Python",
-          "iconifyClass": "logos-python"
-        }
-      ]
-    },
-    {
       "id": "MDEwOlJlcG9zaXRvcnkxMzY3MDIxNDQ=",
       "name": "PseudoDocker",
       "createdAt": "2018-06-09T07:45:32Z",
@@ -113,6 +99,28 @@
         {
           "name": "Python",
           "iconifyClass": "logos-python"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkxNDk5NzIzNzk=",
+      "name": "SearchBar",
+      "createdAt": "2018-09-23T10:05:05Z",
+      "url": "https://github.com/meshde/SearchBar",
+      "description": "A search bar that can be summoned anywhere simply by pressing Cmd twice",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
         }
       ]
     }
