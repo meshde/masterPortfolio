@@ -644,8 +644,7 @@ const projectsHeader = {
 
 const publicationsHeader = {
   title: "Publications",
-  description:
-    "I have worked on and published a few research papers and publications of my own.",
+  description: "",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -653,43 +652,14 @@ const publications = {
   data: [
     {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNze=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzt=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+      name: "EruditeX: A Comprehension Based Question Answering System",
+      publication:
+        "2018 Fourth International Conference on Computing Communication Control and Automation (ICCUBEA)",
+      publisher: "IEEE",
+      createdAt: "2019-04-25T05:30:00Z",
+      description:
+        "This paper introduces a modular approach to the task of factoid Question Answering based on a given context. This involves breaking down the task into subtasks and using traditional NLP techniques along with Deep Neural Networks to solve each subtask independently. Many disadvantages of using end-to-end neural networks for the complex task of Question Answering are overcome with the use of a modular approach. The paper also introduces a new Neural Network based approach for the Answer Extraction subtask, called the VDT Node Ranker. The results obtained using the system with limited amount of training fall below expectations, although that of the VDT Node Ranker alone are quite impressive.",
+      url: "https://ieeexplore.ieee.org/document/8697486",
     },
   ],
 };
