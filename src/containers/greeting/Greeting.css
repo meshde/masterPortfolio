@@ -26,8 +26,12 @@
   margin-bottom: 30px;
 }
 .button-greeting-div {
-  display: flex;
+  display: inline-block;
   margin-top: 20px;
+}
+
+.button-greeting-div .main-button {
+  width: 100%;
 }
 
 .greeting-text {
