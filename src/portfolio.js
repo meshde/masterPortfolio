@@ -21,7 +21,7 @@ const greeting = {
   logo_name: "AshutoshHathidara",
   nickname: "meshde",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "A Software Developer who loves building things in Python & Node.js and scripting in bash",
   resumeLink: "./Resume.pdf",
   githubProfile: "https://github.com/meshde",
 };
