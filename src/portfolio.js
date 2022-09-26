@@ -326,135 +326,94 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
-  description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+  subtitle: "",
+  description: "",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work",
       experiences: [
         {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
-          duration: "June 2020 - PRESENT",
-          location: "Hyderabad, Telangana",
-          description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+          title: "Engineering Lead",
+          company: "Capbase, Inc.",
+          company_url: "https://capbase.com/",
+          logo_path: "capbase.png",
+          duration: "April 2021 - PRESENT",
+          location: "Remote",
+          description: `⇨ Responsibilities (apart from the ones I had as a Senior Engineer):
+          • Lead projects to fruition with engineering teams of varying sizes ranging from 3 to 7.
+          • Active involvement in product ideation and planning, primarily to evaluate the technical feasibility of proposed features/product solutions and to scope out & design the architecture of the implementation of the same.
+          • Lead the engineering side of the customer support team.
+          • Team Management & Development: Conduction of bi-weekly one-on-ones with each team member and conduction of weekly workshop/Q&A sessions covering the technical knowledge base of the platform and other general topics, such as AWS.
+
+          ⇨ Notable Contributions
+          • Evangelised the use of unit and automated tests to cover bugs that were being fixed & as a means of specifications for new features in the team.
+        • Ideated & developed or led the development of numerous admin tools that enabled the customer support team and general engineers to investigate and resolve user issues without needing full-blown production access.`,
           color: "#0879bf",
         },
         {
-          title: "Android and ML Developer",
-          company: "Muffito Incorporation",
-          company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-          logo_path: "muffito_logo.png",
-          duration: "May 2018 - Oct 2018",
-          location: "Pune, Maharashtra",
-          description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
-          color: "#9b1578",
+          title: "Senior Software Engineer",
+          company: "Capbase, Inc.",
+          company_url: "https://capbase.com/",
+          logo_path: "capbase.png",
+          duration: "March 2020 - April 2021",
+          location: "Remote",
+          description: `⇨ Responsibilities:
+          • Design & development of a SaaS platform with React as the frontend and AWS Appsync (GraphQL) and AWS Lambda (Node.js runtime) as the backend. The project involved the use of many other AWS services such as DynamoDB, S3, SQS, CloudWatch Insights, OpenSearch (ElasticSearch), Cognito, IAM, etc. The deployment and orchestration of the various AWS resources was done using AWS Amplify.
+          • Bi-weekly Release Management.
+          • Production & user support. Being the sole engineer with access to production, was responsible for investigating and resolving bugs & other issues that popped up for users and/or in the deployment process.
+
+          ⇨ Notable Contributions:
+          • Identified and implemented optimisations in the core backend process leading to a speedup of about 50%.
+          • Fixed more than a few hard-to-debug and highly intermittent bugs.
+        • Ideated and delivered an admin tool allowing customer support personnel to have read-only access to a particular user's view of the product. This led to the support team having more context of the user's issues thereby leading to faster resolution and happy customers.`,
+          color: "#0879bf",
         },
         {
-          title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
-          logo_path: "freecopy_logo.png",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
-          description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
+          title: "Web Developer L2",
+          company: "Media.net",
+          company_url: "https://www.media.net",
+          logo_path: "media-net.png",
+          duration: "August 2018 - March 2020",
+          location: "Mumbai, Maharashtra",
+          description: `⇨ Responsibilities:
+          • Design, development, and deployment of build processes responsible for the automated compilation of templated Windows and macOS desktop applications. 
+          • Development of features and fixes for an application distribution platform.
+          • Research and rapid development of Proof of Concepts for new features.
+
+          ⇨ Notable Contributions:
+          • Implemented a highly reliable technique for user attribution that could embed user information in a digitally signed Windows executable file without breaking the signature.
+          • Navigated the Chromium codebase to build a custom browser focused on search monetisation.
+          • Conducted live and video courses on Web Fundamentals. The course was designed to cover the intricacies of widely used concepts of JavaScript and CSS that are commonly misunderstood amongst fresh college pass outs.
+
+          ⇨ Team Development:
+          • Conducted thorough reviews and encouraged the use of best practices in terms of code quality and usage of git in a team of four. 
+          • Taught my team how to circumvent common and uncommon blunders associated with version control.
+          • Automated many mundane development tasks, thereby reducing the team’s development time and effort.`,
           color: "#fc1f20",
         },
-      ],
-    },
-    {
-      title: "Internships",
-      experiences: [
         {
-          title: "Data Science Research Intern",
-          company: "Delhivery Pvt. Ltd.",
-          company_url: "https://www.delhivery.com/",
-          logo_path: "delhivery_logo.png",
-          duration: "May 2019 - Sept 2019",
-          location: "Gurgaon, Haryana",
-          description:
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
-          color: "#ee3c26",
-        },
-        {
-          title: "Data Science Intern",
-          company: "Intel Indexer LLC",
-          company_url:
-            "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-          logo_path: "intel_logo.jpg",
-          duration: "Nov 2018 - Dec 2018",
-          location: "Work From Home",
-          description:
-            "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
-          color: "#0071C5",
-        },
-      ],
-    },
-    {
-      title: "Volunteerships",
-      experiences: [
-        {
-          title: "Google Explore ML Facilitator",
-          company: "Google",
-          company_url: "https://about.google/",
-          logo_path: "google_logo.png",
-          duration: "June 2019 - April 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
-          color: "#4285F4",
-        },
-        {
-          title: "Microsoft Student Partner",
-          company: "Microsoft",
-          company_url: "https://www.microsoft.com/",
-          logo_path: "microsoft_logo.png",
-          duration: "Aug 2019 - May 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
-          color: "#D83B01",
-        },
-        {
-          title: "Mozilla Campus Captain",
-          company: "Mozilla",
-          company_url: "https://www.mozilla.org/",
-          logo_path: "mozilla_logo.png",
-          duration: "Oct 2019 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
-          color: "#000000",
-        },
-        {
-          title: "Developer Students Club Member",
-          company: "DSC IIITDM Kurnool",
-          company_url:
-            "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
-          logo_path: "dsc_logo.png",
-          duration: "Jan 2018 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
-          color: "#0C9D58",
-        },
-        {
-          title: "Developer Program Member",
-          company: "Github",
-          company_url: "https://github.com/",
-          logo_path: "github_logo.png",
-          duration: "July 2019 - PRESENT",
-          location: "Work From Home",
-          description:
-            "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
-          color: "#181717",
+          title: "Freelance Software Engineer",
+          company: "Topcoder",
+          company_url: "https://www.topcoder.com/",
+          logo_path: "topcoder.svg",
+          duration: "December 2018 - March 2020",
+          location: "Remote",
+          description: `Topcoder is a crowdsourcing company with an open global community of designers, developers, data scientists, and competitive programmers. Topcoder pays community members for their work on the projects and sells community services to clients.
+
+            Part of the Topcoder community as a developer, actively working on the software development projects hosted on the platform. Community members participate and submit solutions to the open projects, the submissions are then scored on the basis of parameters such as whether or not the requirements are fulfilled, the usage of best practices, maintainability of the code, code coverage, security considerations, etc. The top submissions are heavily compensated.
+
+            ⇨ Notable Achievements:
+          • As of August 2019, have a rating of 1525, making me a yellow coder and putting me in the top 20% of developers at Topcoder.
+            • Worked on 15 different projects, with a success (score of 80+ out of 100) rate of 85.71% and average placement of 3.21
+          • Qualified for TCO19 India Regionals by being in the top 20 developers from India during the period of Feb 2019 - May 2019
+
+          ⇨ Few Projects:
+          • Created a command-line interface tool using Node.js that could compress the specified directory into the ZIP file format and upload it to Topcoder as a challenge submission.
+            • Contributed to a hybrid mobile application project created using the Xamarin toolkit and the .NET framework using C#.
+            • Contributed to many of Topcoder’s internal APIs, Kafka event processors and TopcoderX, the front-end application used by clients to create challenges/tasks on the crowd-sourcing platform. These were implemented using Node.js and React.js
+          • Created a Flask API server and automation scripts to interact with AWS in Python.`,
+          color: "#fc1f20",
         },
       ],
     },
