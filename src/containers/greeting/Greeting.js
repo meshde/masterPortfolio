@@ -42,7 +42,12 @@ export default function Greeting(props) {
               </div>
             </div>
           </div>
-          <div className="greeting-image-div"></div>
+          <div className="greeting-image-div">
+            <img
+              src={require("../../assets/images/meshde.JPG")}
+              alt="Mehmood S. Deshmukh"
+            />
+          </div>
         </div>
       </div>
     </Fade>
