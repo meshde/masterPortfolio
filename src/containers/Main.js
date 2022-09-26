@@ -5,7 +5,6 @@ import Splash from "../pages/splash/Splash";
 import Education from "../pages/education/EducationComponent";
 import Experience from "../pages/experience/Experience";
 import Opensource from "../pages/opensource/Opensource";
-import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
 import { settings } from "../portfolio.js";
 import Error404 from "../pages/errors/error404/Error";
@@ -17,7 +16,6 @@ const routes = {
   "/education": Education,
   "/opensource": Opensource,
   "/projects": Projects,
-  "/contact": Contact,
   ...(settings.isSplash && { "/splash": Splash }),
   "*": Error404,
 };
